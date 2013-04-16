@@ -1,0 +1,8 @@
+BOCETO:
+
+  0. Trabajo: Integración del trapecio con la función:
+    f(x) = 1 / (1 + e^x), x E [1, 6]
+
+  1. Regla del trapecio:
+    La regla del trapecio es un método de integración numérica. Esta regla se basa en aproximar el valor de la integral de f(x) por el de la función lineal que pasa
+    a través  de ésta es igual al área del trapecio que se forma bajo la gráfica de la función lineal.
