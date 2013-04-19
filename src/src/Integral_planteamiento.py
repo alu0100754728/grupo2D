@@ -1,0 +1,20 @@
+#!/usr/bin/python
+import math
+
+a=1
+b=6
+
+integral=float((b-a)*(1/(1+math.e**a)+1/(1+math.e**b))/2)
+
+n=float(raw_input('Introduce el numero de particiones '))
+h=float((b-a)/n)
+
+i=1.0
+sumatorio=0
+while i<=n:
+   sumatorio+=float(2*(1/(1+(math.e)**(a+i*h)))) #sumatorio de la regla del trapecio por partes
+   i+=1
+
+sumatorio=(h/2*(1/(1+math.e**a)+sumatorio+(1/(1+math.e**b))))  #regla del trapecio por partes
+
+print sumatorio

@@ -1,8 +1,30 @@
-BOCETO:
+﻿BOCETO:
 
   0. Trabajo: Integración del trapecio con la función:
     f(x) = 1 / (1 + e^x), x E [1, 6]
 
-  1. Regla del trapecio:
+  1. Regla del trapecio{1}:
     La regla del trapecio es un método de integración numérica. Esta regla se basa en aproximar el valor de la integral de f(x) por el de la función lineal que pasa
     a través  de ésta es igual al área del trapecio que se forma bajo la gráfica de la función lineal.
+
+
+
+   Planteamiento para implementar python
+
+La regla del trapecio por partes:
+
+int^b_a f(x)dx =  h/2*(f(a)+(2a+h)+2f(a+2h)+...+f(b))
+
+Donde h 
+
+h=(b-a)/n
+
+n=número de particiones.
+
+
+   Motivaciones o objetivos:
+
+   Principal: Implementar con Python la integración del trapecio para f(x)
+   Específica: Realizar un algoritmo capaz de resolver la integración del trapecio para f(x) = 1 / (1 + e^x), x E [1, 6]
+
+
