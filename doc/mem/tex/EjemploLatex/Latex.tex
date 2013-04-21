@@ -1,0 +1,62 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+
+\begin{document}
+  \title{Ejemplo de \LaTeX.}
+  \author{Tiffany López Nicholson.}
+  \date{\today}
+  \maketitle
+
+  \begin{abstract}
+    \begin{center}
+      Esto es un resumen.
+    \end{center}
+  \end{abstract}
+
+  \section{Primera sección.}
+    Puedo escribir aquí. Ahora quiero un pie de página\footnote{Aquí lo tengo.}.
+    \subsection{Items y enumeraciones.}
+      \begin{itemize}
+        \item Primero.
+	\item Segundo.
+      \end{itemize}
+      \begin{enumerate}
+        \item Tercero.
+	\item Cuarto.
+      \end{enumerate}
+   \pagebreak
+      
+    \subsection{Tablas e imágenes.}
+      \begin{figure}
+	\begin{center}
+	\includegraphics[width=0.5\textwidth]{imagen1.eps}
+	\caption{Esto es una imagen.}
+	\end{center}
+      \end{figure}
+
+      \begin{table}
+	\begin{center}
+	\begin{tabular}{|l|c|r|}
+	  \hline
+	  {\bf Izquierda} & {\bf Centro} & {\bf Derecha} \\ \hline
+	  1 & 2 & 3 \\ \hline
+	\end{tabular}
+	\caption{Esto es una tabla.}
+	\end{center}
+      \end{table}
+
+    \section{Fómulas y más cositas...}
+      Mientras escribo, aparece una fórmula: $a^2+b^2+2ab = (a+b)^2$.\\
+      Y ahora centadro:
+	$$a^2+b^2+2ab = (a+b)^2$$
+      Usemos fracciones, raíces y números extraños:
+	$$x=\frac{-b+\sqrt[2]{b^2-4ac}}{2a}; x=\pi$$
+      Para usar comillas ''HELLO WORLD!''. \~Nos gusta mucho la \~n. ESPA\~NA.
+  \begin{thebibliography}{99}
+    \bibitem[1]{Man}
+      Manual de \LaTeX.
+      \emph{Coromoto.} Profesora de Técnicas Experimentales.
+  \end{thebibliography}
+\end{document}

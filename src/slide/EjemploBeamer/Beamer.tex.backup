@@ -1,0 +1,84 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+
+\usetheme{Madrid}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+\title[Ejemplo]{Ejemplo con BEAMER.}
+\author[Nombre]{Tiffany López Nicholson.}
+\date[Fecha]{3 de abril de 2013.}
+
+\begin{document}
+  \begin{frame}
+    \titlepage
+  \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \begin{frame}
+    \frametitle{Índice.}
+    \tableofcontents[pausesections]
+  \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \section{Primera sección.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{frame}
+      \frametitle{Cositas.}
+      \begin{block}{Un bloque}
+	Aquí pongo un bloque.
+      \end{block}
+
+      \begin{definicion}
+	Aquí pongo una definición.
+      \end{definicion}
+
+      \begin{ejemplo}
+	Aquí pongo un ejemplo.
+      \end{ejemplo}
+    \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \section{Segunda sección.}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{frame}
+      \begin{itemize}
+	\item 
+	Uno
+	\pause
+
+	\item 
+	Dos
+	\pause
+      \end{itemize}
+
+      \begin{enumerate}
+	\item 
+	Tres.
+	\pause
+
+	\item 
+	Tres.
+	\pause
+      \end{enumerate}
+
+    \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \section{Bibliografía}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{frame}
+      \frametitle{Bibliografía.}
+	\begin{thebibliography}{99}
+	\bibitem[1]{Man}
+	  Manual de Beamer. \emph{Coromoto:} Profesora de Técnicas experimentales.
+	  \small{$www.campusvirtual.ull.es$}
+	\end{thebibliography}
+    \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

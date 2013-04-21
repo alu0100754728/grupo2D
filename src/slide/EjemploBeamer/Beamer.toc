@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.07pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Primera secci\IeC {\'o}n.}{5}{0}{1}
+\beamer@sectionintoc {2}{Segunda secci\IeC {\'o}n.}{6}{0}{2}
+\beamer@sectionintoc {3}{Bibliograf\IeC {\'\i }a}{11}{0}{3}
