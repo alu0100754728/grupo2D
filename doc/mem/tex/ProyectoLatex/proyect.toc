@@ -1,0 +1,3 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Integraci\IeC {\'o}n Del Trapecio}{3}
+\contentsline {subsection}{\numberline {1.1}Items y enumeraciones.}{3}
