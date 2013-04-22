@@ -1,12 +1,9 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
-%\usepackage{graphicx}
 
 \begin{document}
-%Portada
-  %\includegraphics[width=0.5\textwidth]{ull.png}
-  \title{Integración Del Trapecio }%\\ En el intervalo [1, 6] de una función.}
+  \title{Integración Del Trapecio \\ En el intervalo [1, 6] de una función.}
   \author{Tiffany López Nicholson \\ Miriam Martín Jacinto \\ Sergio Vega García}
   \date{\today}
 \end{document}

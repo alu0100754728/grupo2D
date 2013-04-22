@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.3.13)  22 APR 2013 16:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.3.13)  22 APR 2013 17:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -282,25 +282,14 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
- [1
-
-] (./proyect.aux
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
-) ) 
+ (./proyect.aux) ) 
 Here is how much of TeX's memory you used:
- 1052 strings out of 495060
- 11738 string characters out of 3182053
- 66315 words of memory out of 3000000
- 4287 multiletter control sequences out of 15000+200000
- 6675 words of font info for 24 fonts, out of 3000000 for 9000
+ 1021 strings out of 495060
+ 11416 string characters out of 3182053
+ 65315 words of memory out of 3000000
+ 4266 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 25i,7n,27p,165b,216s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,1n,27p,165b,38s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on proyect.dvi (1 page, 524 bytes).
+No pages of output.
