@@ -1,0 +1,12 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[Spanish]{babel}
+\usepackage{graphicx}
+
+\usetheme{Madrid}
+
+\title[Integración]{Integración por el método del trapecio.}
+\author[Grupo 2D]{Miriam Martín Jacinto.
+Tiffany López Nicholson.
+Sergio Vega García.}
+\date[01/05/2013]{1 de mayo de 2013.}
