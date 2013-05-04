@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.3.13)  29 APR 2013 17:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.4.18)  4 MAY 2013 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -265,7 +265,30 @@ Package babel Info: Making " an active character on input line 496.
 Package babel Info: Making . an active character on input line 599.
 Package babel Info: Making < an active character on input line 644.
 Package babel Info: Making > an active character on input line 644.
-)) (./proyect.aux
+)) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+) (./proyect.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 )
@@ -285,16 +308,19 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
+File: ull.eps Graphic file (type eps)
+
+<ull.eps>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <12> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
+(Font)              <6> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 16.
+(Font)              <9> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 16.
+(Font)              <5> on input line 18.
  [1
 
 ] (./proyect.toc
@@ -306,17 +332,34 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write3
 \openout3 = `proyect.toc'.
 
- [2] [3] (./proyect.aux
+ [2] [3]
+File: areadeltrapecio.eps Graphic file (type eps)
+ <areadeltrapecio.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--56
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+ []
+
+[4] (./proyect.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 1076 strings out of 495060
- 11986 string characters out of 3182053
- 66315 words of memory out of 3000000
- 4302 multiletter control sequences out of 15000+200000
+ 1389 strings out of 495060
+ 16021 string characters out of 3182053
+ 69563 words of memory out of 3000000
+ 4594 multiletter control sequences out of 15000+200000
  9115 words of font info for 32 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 25i,7n,27p,295b,278s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,7n,27p,295b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on proyect.dvi (3 pages, 2372 bytes).
+Output written on proyect.dvi (4 pages, 5704 bytes).

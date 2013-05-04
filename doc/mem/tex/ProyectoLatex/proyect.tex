@@ -1,11 +1,13 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
-%\usepackage{graphicx}
+\usepackage{graphicx}
 
 \begin{document}
 %Portada
-  %\includegraphics[width=0.5\textwidth]{ull}
+  \begin{figure}[lt]
+    \includegraphics[width=0.3\textwidth]{ull.eps}
+  \end{figure}
   \title{Integración Del Trapecio} %[En el intervalo [1, 6] de una función]
   \author{Tiffany López Nicholson \\ Miriam Martín Jacinto \\ Sergio Vega García}
   \date{\today}
@@ -24,26 +26,53 @@
   \pagebreak
   
 %%%%%%%%%%%%%%%%%%%%%
+  
+  \section{Motivaciones y objetivos}
+    \begin{itemize}
+      \item Objetivo principal: Implementar con Python la integración del trapecio para f(x)
+      \item Objetivo específico: Realizar un algoritmo capaz de resolver la integración del trapecio para $ f(x) = \frac{1}{1 + e^{x}}$, x E [1, 6],
+    \end{itemize}
+    \subsection{Seccion uno}
+    \subsection{Seccion dos}
+  \pagebreak
 
-  \section{Integración Del Trapecio}
+%%%%%%%%%%%%%%%%%%%%%
+  \section{Fundamentos teóricos}
     La regla del trapecio es un método de integración numérica. Esta regla se basa en aproximar el valor de la integral de f(x) por el de la función lineal que pasa a través  de ésta es igual al área del trapecio que se forma bajo la gráfica de la función lineal.
     
-    %\begin{figure}
-      %begin{center}
-	%\includegraphics[width=0.5\textwidth]{areadeltrapecio}
-	%\caption{Esto es una imagen.}
-      %\end{center}
-    %\end{figure}
+    \begin{figure}[h]
+      \begin{center}
+	\includegraphics[scale=0.5]{areadeltrapecio.eps}
+	\caption{Ejemplo}
+      \end{center}
+    \end{figure}
       
-    \subsection{Items y enumeraciones.}
-      \begin{itemize}
-        \item Primero.
-	\item Segundo.
-      \end{itemize}
-      \begin{enumerate}
-        \item Tercero.
-	\item Cuarto.
-      \end{enumerate}
+    \subsection{Explicación general}
+
+      Para la utilización del método del trapecio partimos de una función, la cual dividiremos en n trozos iguales. Cuanto mayor sea el número de particiones, mayor precisión tendrá el método.\\
+      %Intentar introducir aquí un ejemplo gráfico.
+
+      Se puede apreciar que el área tomada por exceso, es decir, la que supera a la función, o la tomada por defecto, la cual no llega a la función, se reduce según aumenta el número de particiones. \\
+
+      La función general es: 
+        
+      \begin{center}
+   
+        $\int_{a}^{b}f(x)dx \approx \frac{h}{2}[f(a)-2f(a+h)+2f(a+2h)+...+f(b)]$
+
+      \end{center}
+ 
+      Donde $h=\frac{b-a}{n}$ y n es el número de divisiones.\\
+
+      La expresión anterior también se puede escribir como:
+
+      \begin{center}
+
+        $\int_{a}^{b}f(x)dx \approx \frac{b-a}{n}(\frac{f(a)+f(b)}{2}+\sum\limits_{k=1}^{n-1}f(a+k\frac{b-a}{n}))$
+      \end{center}
+
+    \subsection{Explicación aplicada}
+      
    \pagebreak
 
 \end{document}

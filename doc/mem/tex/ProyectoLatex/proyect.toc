@@ -1,3 +1,7 @@
 \select@language {spanish}
-\contentsline {section}{\numberline {1}Integraci\IeC {\'o}n Del Trapecio}{3}
-\contentsline {subsection}{\numberline {1.1}Items y enumeraciones.}{3}
+\contentsline {section}{\numberline {1}Motivaciones y objetivos}{3}
+\contentsline {subsection}{\numberline {1.1}Seccion uno}{3}
+\contentsline {subsection}{\numberline {1.2}Seccion dos}{3}
+\contentsline {section}{\numberline {2}Fundamentos te\IeC {\'o}ricos}{4}
+\contentsline {subsection}{\numberline {2.1}Explicaci\IeC {\'o}n general}{4}
+\contentsline {subsection}{\numberline {2.2}Explicaci\IeC {\'o}n aplicada}{4}
