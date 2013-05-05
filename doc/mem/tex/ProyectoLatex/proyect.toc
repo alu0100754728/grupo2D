@@ -3,5 +3,6 @@
 \contentsline {subsection}{\numberline {1.1}Seccion uno}{3}
 \contentsline {subsection}{\numberline {1.2}Seccion dos}{3}
 \contentsline {section}{\numberline {2}Fundamentos te\IeC {\'o}ricos}{4}
-\contentsline {subsection}{\numberline {2.1}Explicaci\IeC {\'o}n general}{4}
-\contentsline {subsection}{\numberline {2.2}Explicaci\IeC {\'o}n aplicada}{4}
+\contentsline {subsection}{\numberline {2.1}Interpolaci\IeC {\'o}n polinomial.}{4}
+\contentsline {subsection}{\numberline {2.2}Explicaci\IeC {\'o}n general}{4}
+\contentsline {subsection}{\numberline {2.3}Explicaci\IeC {\'o}n aplicada}{5}

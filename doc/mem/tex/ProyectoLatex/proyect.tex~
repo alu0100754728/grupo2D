@@ -38,7 +38,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%
   \section{Fundamentos teóricos}
-    La regla del trapecio es un método de integración numérica. Esta regla se basa en aproximar el valor de la integral de f(x) por el de la función lineal que pasa a través  de ésta es igual al área del trapecio que se forma bajo la gráfica de la función lineal.
+    La regla del trapecio es un método de integración numérica que se basa en aproximar el valor de la integral definida de $f(x)$ por el de la función lineal que pasa a través de ésta, formándose una figura: un trapecio. Para obtener esta aproximación, debemos calcular el área de los trapecios.
     
     \begin{figure}[h]
       \begin{center}
@@ -46,6 +46,12 @@
 	\caption{Ejemplo}
       \end{center}
     \end{figure}
+
+      Para justificar este método, deberemos ''aproximar'' de una buena manera nuestra función $f(x)$. Esto lo haremos gracias a la \textit{interpolación polinomial}.
+
+    \subsection{Interpolación polinomial.}
+      La interpolación polinomial nos dice que para hacer una ''buena aproximación''de $f(x)$, que querremos integrar, por otra función $g(x)$, en los puntos $x_{i}$ (con $i = 1, 2, 3, ..., n$); o lo que es lo mismo, $\int_{x_{1}}^{x_{n}}f(x)dx \approx \int_{x_{1}}^{x_{n}}g(x)dx$, $\forall x_{i}, con i = 1, 2, 3, ..., n$. Estas dos funciones deben ser continuas en el intervalo $[x_{1}, x{n}]$.\\
+      Pero el problema que se presenta es como buscar estas funciones. Hay varios teoremas que nos ayudan a resolverlo, como el \textit{teorema aproximación de Weierstrass} o el \textit{polinomio de interpolación de Lagrange}.
       
     \subsection{Explicación general}
 

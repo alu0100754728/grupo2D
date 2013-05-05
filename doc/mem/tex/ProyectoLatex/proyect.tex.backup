@@ -50,8 +50,7 @@
       Para justificar este método, deberemos ''aproximar'' de una buena manera nuestra función $f(x)$. Esto lo haremos gracias a la \textit{interpolación polinomial}.
 
     \subsection{Interpolación polinomial.}
-      La interpolación polinomial nos dice que para hacer una ''buena aproximación''de $f(x)$, que querremos integrar, por otra función $g(x)$, en los puntos $x_{i}$ (con $i = 1, 2, 3, ..., n$); o lo que es lo mismo, $\int_{x_{1}}^{x_{n}}f(x)dx \approx \int_{x_{1}}^{x_{n}}g(x)dx$, $\forall x_{i}, con i = 1, 2, 3, ..., n$. Estas dos funciones deben ser continuas en el intervalo $[x_{1}, x{n}]$.\\
-      Pero el problema que se presenta es como buscar estas funciones. Hay varios teoremas que nos ayudan a resolverlo, como el \textit{teorema aproximación de Weierstrass} o el \textit{polinomio de interpolación de Lagrange}.
+      La interpolación polinomial nos dice que para hacer una ''buena aproximación''de $f(x)$, que querremos integrar, por otra función $g(x)$, en los puntos $x_{i}$ (con $i = 1, 2, 3, ..., n$); o lo que es lo mismo, $\int_{x_{1}}^{x_{n}}f(x)dx \approx \int_{x_{1}}^{x_{n}}g(x)dx$, \forall 
       
     \subsection{Explicación general}
 
@@ -59,7 +58,6 @@
       %Intentar introducir aquí un ejemplo gráfico.
 
       Se puede apreciar que el área tomada por exceso, es decir, la que supera a la función, o la tomada por defecto, la cual no llega a la función, se reduce según aumenta el número de particiones. \\
-      \\
 
       La función general es: 
         
