@@ -2,13 +2,14 @@
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{graphicx}
+\usepackage{amsfonts}
 
 \begin{document}
 %Portada
   \begin{figure}[lt]
     \includegraphics[width=0.3\textwidth]{ull.eps}
   \end{figure}
-  \title{Integración Del Trapecio} %[En el intervalo [1, 6] de una función]
+  \title{Integración Del Trapecio}
   \author{Tiffany López Nicholson \\ Miriam Martín Jacinto \\ Sergio Vega García}
   \date{\today}
   \maketitle
@@ -32,11 +33,12 @@
       \item Objetivo principal: Implementar con Python la integración del trapecio para f(x)
       \item Objetivo específico: Realizar un algoritmo capaz de resolver la integración del trapecio para $ f(x) = \frac{1}{1 + e^{x}}$, x E [1, 6],
     \end{itemize}
-    \subsection{Seccion uno}
-    \subsection{Seccion dos}
+    \subsection{Seccion uno} % MIRAR SI VAMOS A INTRODUCIR
+    \subsection{Seccion dos} % ALGO MÁS AQUÍ, O BORRARLO
   \pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%
+
   \section{Fundamentos teóricos}
     La regla del trapecio es un método de integración numérica que se basa en aproximar el valor de la integral definida de $f(x)$ por el de la función lineal que pasa a través de ésta, formándose una figura: un trapecio. Para obtener esta aproximación, debemos calcular el área de los trapecios.
     
@@ -50,13 +52,20 @@
       Para justificar este método, deberemos ''aproximar'' de una buena manera nuestra función $f(x)$. Esto lo haremos gracias a la \textit{interpolación polinomial}.
 
     \subsection{Interpolación polinomial.}
-      La interpolación polinomial nos dice que para hacer una ''buena aproximación''de $f(x)$, que querremos integrar, por otra función $g(x)$, en los puntos $x_{i}$ (con $i = 1, 2, 3, ..., n$); o lo que es lo mismo, $\int_{x_{1}}^{x_{n}}f(x)dx \approx \int_{x_{1}}^{x_{n}}g(x)dx$, $\forall x_{i}, con i = 1, 2, 3, ..., n$. Estas dos funciones deben ser continuas en el intervalo $[x_{1}, x{n}]$.\\
+      La interpolación polinomial nos dice que para hacer una ''buena aproximación''de $f(x)$, que querremos integrar, por otra función $g(x)$, en los puntos $x_{i}$ (con $i = 1, 2, 3, ..., n$); o lo que es lo mismo, $\int_{x_{1}}^{x_{n}}f(x)dx \approx \int_{x_{1}}^{x_{n}}g(x)dx$, $\forall x_{i}, con i = 1, 2, 3, ..., n$. Estas dos funciones deben ser continuas en el intervalo $[x_{1}, x_{n}]$.\\
+%%NO HACE FALTA PONER CORCHETES PARA ELEVADOS O ÍNDICES SI SOLO ES UN DATO
+%%PUEDES AHORRAR TIEMPO SI LOS EVITAS.
       Pero el problema que se presenta es como buscar estas funciones. Hay varios teoremas que nos ayudan a resolverlo, como el \textit{teorema aproximación de Weierstrass} o el \textit{polinomio de interpolación de Lagrange}.
       
-    \subsection{Explicación general}
+    \subsection{Integración del trapecio}
 
       Para la utilización del método del trapecio partimos de una función, la cual dividiremos en n trozos iguales. Cuanto mayor sea el número de particiones, mayor precisión tendrá el método.\\
-      %Intentar introducir aquí un ejemplo gráfico.
+
+  	\begin{center}
+         \includegraphics[width=0.48\textwidth]{img2.eps}
+	 \includegraphics[width=0.48\textwidth]{img3.eps}
+        \end{center}
+
 
       Se puede apreciar que el área tomada por exceso, es decir, la que supera a la función, o la tomada por defecto, la cual no llega a la función, se reduce según aumenta el número de particiones. \\
       \\
@@ -78,8 +87,53 @@
         $\int_{a}^{b}f(x)dx \approx \frac{b-a}{n}(\frac{f(a)+f(b)}{2}+\sum\limits_{k=1}^{n-1}f(a+k\frac{b-a}{n}))$
       \end{center}
 
-    \subsection{Explicación aplicada}
+    \subsection{Integración del trapecio aplicado}
       
+    La ecuación específica del proyecto es $f(x)\frac{1}{1+e^x}$, cuya representación gráfica es la siguiente:
+     
+     \begin{figure}[h]
+      \begin{center}
+         \includegraphics[width=0.7\textwidth]{img4.eps}
+      \end{center}
+     \end{figure}
+
+      El intervalo de la integral es [1,6]. Existe función en todos los puntos, por lo que también existe la integral. Al igual que en el caso anterior, por existir una curva, habría que realizar varias particiones para conseguir un resultado preciso.
+
    \pagebreak
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%BOCETOOOOOOOOOOOO
+
+   \section{Procedimiento experimental}
+   Para poder realizar la integración del trapecio primero necesitabamos analizar los datos iniciales.
+   \begin{itemize}
+    \item La función $f(x)=\frac{1}{1+e^x}$ estaba definida en el intervalo [1,6].
+    \item La función definida en [1,6] existe en $\mathbb{R}$, numeros reales, por tanto se puede integrar.
+    \item En la fórmula de la integración del trapecio intervienen bastantes variables.
+   \end{itemize}
+   Con estos datos a priori se pueden sacar dos conclusiones.
+     \begin{enumerate}
+       \item Realizar la integración por la regla del trapecio a mano es muy tedioso.
+       \item Se necesita implementar un programa en python para agilizar la tarea.
+     \end{enumerate}
+
+   Se ha creado en python un programa que permita elegir el número de particiones y así comparar resultados. La utilidad principal sería comprobar que cuantas más particiones se realicen, más precisa es la integración.
+
+%%% SE PODRÍA EDITAR EL PYTHON CREADO PARA QUE REALICE LA OPERACIÓN CON VARIAS
+%%% PARTICIONES A LA VEZ, Y MUESTRE LOS RESULTADOS TODOS JUNTOS. PODRÍA HACERLO
+%%% YO QUE CREÉ EL PROGRAMA Y SÉ COMO FUNCIONA. FDO: SERGIO 
+    
+    \subsection{Descripción de los experimentos}
+
+    \subsection{Descripción del material}
+
+    \subsection{Resultados obtenidos}
+
+    \subsection{Análisis de resultados}
+
+   \pagebreak
+
+%FIN BOCETO
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}

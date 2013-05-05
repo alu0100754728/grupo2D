@@ -4,5 +4,10 @@
 \contentsline {subsection}{\numberline {1.2}Seccion dos}{3}
 \contentsline {section}{\numberline {2}Fundamentos te\IeC {\'o}ricos}{4}
 \contentsline {subsection}{\numberline {2.1}Interpolaci\IeC {\'o}n polinomial.}{4}
-\contentsline {subsection}{\numberline {2.2}Explicaci\IeC {\'o}n general}{4}
-\contentsline {subsection}{\numberline {2.3}Explicaci\IeC {\'o}n aplicada}{5}
+\contentsline {subsection}{\numberline {2.2}Integraci\IeC {\'o}n del trapecio}{4}
+\contentsline {subsection}{\numberline {2.3}Integraci\IeC {\'o}n del trapecio aplicado}{5}
+\contentsline {section}{\numberline {3}Procedimiento experimental}{6}
+\contentsline {subsection}{\numberline {3.1}Descripci\IeC {\'o}n de los experimentos}{6}
+\contentsline {subsection}{\numberline {3.2}Descripci\IeC {\'o}n del material}{6}
+\contentsline {subsection}{\numberline {3.3}Resultados obtenidos}{6}
+\contentsline {subsection}{\numberline {3.4}An\IeC {\'a}lisis de resultados}{6}
