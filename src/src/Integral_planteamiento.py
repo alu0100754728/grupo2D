@@ -6,9 +6,9 @@ b=6
 
 integral=float((b-a)*(1/(1+math.e**a)+1/(1+math.e**b))/2)
 
-n=float(raw_input('Introduce el numero minimo de particiones '))
-m=float(raw_input('Introduce el numero maximo de particiones '))
-intervalos=float(raw_input('Introduce el intervalo de las particiones '))
+n=float(raw_input('Introduce el numero minimo de particiones ')) # Float por problema de decimales
+m=float(raw_input('Introduce el numero maximo de particiones ')) # Idem
+intervalos=float(raw_input('Introduce el intervalo de las particiones ')) # Idem
 
 
 
@@ -22,5 +22,5 @@ while n<=m:
 
    sumatorio=(h/2*(1/(1+math.e**a)+sumatorio+(1/(1+math.e**b))))  #regla del trapecio por partes
 
-   print n, m, sumatorio
+   print 'Particion:', int(n), 'Resultado:', sumatorio
    n+=intervalos

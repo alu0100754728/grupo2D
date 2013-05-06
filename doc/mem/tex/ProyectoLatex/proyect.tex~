@@ -29,12 +29,10 @@
 %%%%%%%%%%%%%%%%%%%%%
   
   \section{Motivaciones y objetivos}
-    \begin{itemize}
-      \item Objetivo principal: Implementar con Python la integración del trapecio para f(x)
-      \item Objetivo específico: Realizar un algoritmo capaz de resolver la integración del trapecio para $ f(x) = \frac{1}{1 + e^{x}}$, x E [1, 6],
-    \end{itemize}
-    \subsection{Seccion uno} % MIRAR SI VAMOS A INTRODUCIR
-    \subsection{Seccion dos} % ALGO MÁS AQUÍ, O BORRARLO
+    \subsection{Objetivo principal}
+       Implementar con Python la integración del trapecio para f(x) % MIRAR SI VAMOS A INTRODUCIR
+    \subsection{Objetivo específico} 
+       Realizar un algoritmo capaz de resolver la integración del trapecio para $ f(x) = \frac{1}{1 + e^{x}}$, x E [1, 6]. % ALGO MÁS AQUÍ, O BORRARLO
   \pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%
@@ -93,7 +91,7 @@
      
      \begin{figure}[h]
       \begin{center}
-         \includegraphics[width=0.7\textwidth]{img4.eps}
+         \includegraphics[width=0.7\textwidth]{img4.eps}\caption{Prueba}\label{fig:grafica}
       \end{center}
      \end{figure}
 
@@ -130,22 +128,57 @@
  
    \begin{enumerate}
      \item De 1 a 10 particiones, con intervalo de 1 unidad.
-     \item De 1 a 101 particiones, con intervalo de 10 unidades.
+     \item De 10 a 100 particiones, con intervalo de 10 unidades.
+     \item De 100 a 1000 particiones, con intervalo de 100 unidades.
    \end{enumerate}
 
     \subsection{Descripción del material}
 
       \begin{itemize}
-        \item Procesador: 2.2 GHz
+        \item S.O. original: Windows 7
+        \item S.O. utilizado: Linux - Ubuntu
+        \item Procesador: Pentium(R) Dual-Core CPU  T4400  @ 2.20GHz
         \item Velocidad: 1200.000 MHz
-        \item RAM: 4014144 kB
+        \item RAM: 4 GB
+        \item Programa: Python
       \end{itemize}
 
     \subsection{Resultados obtenidos}
 
+     \begin{tabular}{|c|c|c|c|c|c|}
+      \hline
+      Partición & Resultado & Partición & Resultado & Partición & Resultado\\
+      \hline
+      1 & 0.6908982271 & 10 & 0.316070258216 & 100 & 0.310950080829\\ 
+      \hline
+      2 & 0.418729690428 & 20 & 0.312415536652 & 200 & 0.310857929721\\ 
+      \hline
+      3 & 0.360170903466 & 30 & 0.311647557367 & 300 & 0.310831706878\\
+      \hline
+      4 & 0.339273533105 & 40 & 0.311347886591 & 400 & 0.310819438106\\
+      \hline
+      5 & 0.329487501506 & 50 & 0.311195057792 & 500 & 0.310812346491\\
+      \hline
+      6 & 0.324106360674 & 60 & 0.311104409514 & 600 & 0.310812346491\\
+      \hline
+      7 & 0.320820024708 & 70 & 0.311045164508 & 700 & 0.310804489423\\
+      \hline
+      8 & 0.31865911442 & 80 & 0.311003740508 & 800 & 0.310802088259\\
+      \hline
+      9 & 0.317158073083 & 90 & 0.310973305356 & 900 & 0.310800238521\\
+      \hline
+      10 & 0.316070258216 & 100 & 0.310950080829 & 1000 & 0.310798769966\\ \hline
+     \end{tabular}
+
     \subsection{Análisis de resultados}
 
-   \pagebreak
+     Analizando los resultados, se observa que no hay grandes cambios a partir de la octava división. Si solo se hicieran una o dos divisiones se tendría un resultado mucho mayor del real, eso es porque hay una curva pronunciada, sobre todo al principio. Se puede apreciar en la Figura ~\ref{fig:grafica}.\\
+
+     Cuanto mayor es el número de particiones, más se reduce el resultado, por tanto la curva que existe es decreciente.\\
+
+     % SACAR MÁS CONCLUSIONES
+
+    \pagebreak
 
 %FIN BOCETO
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

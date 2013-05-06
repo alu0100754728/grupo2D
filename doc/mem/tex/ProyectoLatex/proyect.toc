@@ -1,13 +1,13 @@
 \select@language {spanish}
 \contentsline {section}{\numberline {1}Motivaciones y objetivos}{3}
-\contentsline {subsection}{\numberline {1.1}Seccion uno}{3}
-\contentsline {subsection}{\numberline {1.2}Seccion dos}{3}
+\contentsline {subsection}{\numberline {1.1}Objetivo principal}{3}
+\contentsline {subsection}{\numberline {1.2}Objetivo espec\IeC {\'\i }fico}{3}
 \contentsline {section}{\numberline {2}Fundamentos te\IeC {\'o}ricos}{4}
 \contentsline {subsection}{\numberline {2.1}Interpolaci\IeC {\'o}n polinomial.}{4}
 \contentsline {subsection}{\numberline {2.2}Integraci\IeC {\'o}n del trapecio}{4}
 \contentsline {subsection}{\numberline {2.3}Integraci\IeC {\'o}n del trapecio aplicado}{5}
-\contentsline {section}{\numberline {3}Procedimiento experimental}{6}
-\contentsline {subsection}{\numberline {3.1}Descripci\IeC {\'o}n de los experimentos}{6}
-\contentsline {subsection}{\numberline {3.2}Descripci\IeC {\'o}n del material}{6}
-\contentsline {subsection}{\numberline {3.3}Resultados obtenidos}{7}
-\contentsline {subsection}{\numberline {3.4}An\IeC {\'a}lisis de resultados}{7}
+\contentsline {section}{\numberline {3}Procedimiento experimental}{7}
+\contentsline {subsection}{\numberline {3.1}Descripci\IeC {\'o}n de los experimentos}{7}
+\contentsline {subsection}{\numberline {3.2}Descripci\IeC {\'o}n del material}{7}
+\contentsline {subsection}{\numberline {3.3}Resultados obtenidos}{8}
+\contentsline {subsection}{\numberline {3.4}An\IeC {\'a}lisis de resultados}{8}
