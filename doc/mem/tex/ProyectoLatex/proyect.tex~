@@ -53,6 +53,7 @@
       La interpolación polinomial nos dice que para hacer una ''buena aproximación''de $f(x)$, que querremos integrar, por otra función $g(x)$, en los puntos $x_{i}$ (con $i = 1, 2, 3, ..., n$); o lo que es lo mismo, $\int_{x_{1}}^{x_{n}}f(x)dx \approx \int_{x_{1}}^{x_{n}}g(x)dx$, $\forall x_{i}, con i = 1, 2, 3, ..., n$. Estas dos funciones deben ser continuas en el intervalo $[x_{1}, x_{n}]$.\\
 %%NO HACE FALTA PONER CORCHETES PARA ELEVADOS O ÍNDICES SI SOLO ES UN DATO
 %%PUEDES AHORRAR TIEMPO SI LOS EVITAS.
+%%Pero en mi portatil si no pongo corchetes no se compila bien.s
       Pero el problema que se presenta es como buscar estas funciones. Hay varios teoremas que nos ayudan a resolverlo, como el \textit{teorema aproximación de Weierstrass} o el \textit{polinomio de interpolación de Lagrange}.
       
     \subsection{Integración del trapecio}
