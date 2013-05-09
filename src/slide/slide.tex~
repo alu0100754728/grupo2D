@@ -10,7 +10,8 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\usetheme{Antibes}
+\usetheme{classic}
+\usecolortheme[RGB={125,60,125}]{structure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -24,6 +25,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \begin{frame}
     \titlepage
+
+    \begin{scriptsize}
+      \begin{center}
+	Facultad de Matemáticas \\ Universidad de La Laguna
+      \end{center}
+    \end{scriptsize}
   \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -36,13 +43,34 @@
   \section{Integración.}
   \begin{frame}
     \frametitle{Integración.}
-      \begin[}
-	La regla del trapecio es un método de integración numérica que se basa en aproximar el valor de la integral definida de $f(x)$ por el de la función lineal que pasa a través de ésta, formándose una figura: un trapecio. Para obtener esta aproximación, debemos calcular el área de los trapecios.
-      \end{block}
+      \begin{definicion}
+	Una \textbf{integral} es una generalización de la suma de infinitos sumandos, infinitamente pequeños.
+      \end{definicion}
+	
+      \begin{definicion}
+	Dada una función f(x) y un intervalo [a,b], la \textbf{integral definida} es igual al área limitada entre la gráfica de f(x), el eje de abscisas, y las rectas verticales x = a y x = b.\\
+	$\int_{a}^{b} f(x) dx$, continua en el intervalo $[a, b].$
+      \end{definicion}
+
 
   \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Regla del trapecio.}
+  \begin{frame}
+    \begin{definicion}
+      La \textbf{regla del trapecio} es un método de integración numérica que se basa en aproximar el valor de la integral definida de $f(x)$ por el de la función lineal que pasa a través de ésta, formándose una figura: un trapecio. Para obtener esta aproximación, debemos calcular el área de los trapecios.
+    \end{definicion}
 
+  \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %\begin{thebibliography}{00}
+    %\bibitem{}
+    
+  %\end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \end{document}
 
