@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.3.13)  10 MAY 2013 10:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.4.18)  10 MAY 2013 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -320,12 +320,12 @@ File: ull.eps Graphic file (type eps)
 <ull.eps>
 File: fmatesc.eps Graphic file (type eps)
  <fmatesc.eps>
-LaTeX Font Info:    Try loading font information for U+msa on input line 16.
+LaTeX Font Info:    Try loading font information for U+msa on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 16.
+LaTeX Font Info:    Try loading font information for U+msb on input line 19.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
@@ -342,7 +342,7 @@ LaTeX Info: Redefining \% on input line 1.
 [2] [3]
 File: areadeltrapecio.eps Graphic file (type eps)
  <areadeltrapecio.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
@@ -350,63 +350,83 @@ File: img2.eps Graphic file (type eps)
 <img2.eps>
 File: img3.eps Graphic file (type eps)
  <img3.eps> [4]
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
 File: img4.eps Graphic file (type eps)
 <img4.eps> [5] [6]
-Overfull \hbox (2.44504pt too wide) in paragraph at lines 109--110
+Overfull \hbox (2.44504pt too wide) in paragraph at lines 112--113
 []\OT1/cmr/m/n/10 Para poder re-alizar la in-te-graci^^Son del trapecio primero
  nece-sitabamos analizar
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Overfull \hbox (65.00089pt too wide) in paragraph at lines 150--174
+Overfull \hbox (65.00089pt too wide) in paragraph at lines 152--176
 [][] 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 177--178
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
-[8] (./proyect.aux
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+[10] (./proyect.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 1495 strings out of 495060
- 17416 string characters out of 3182053
- 75563 words of memory out of 3000000
- 4676 multiletter control sequences out of 15000+200000
+ 1496 strings out of 495060
+ 17424 string characters out of 3182053
+ 74563 words of memory out of 3000000
+ 4677 multiletter control sequences out of 15000+200000
  13702 words of font info for 53 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  25i,7n,27p,437b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on proyect.dvi (8 pages, 15400 bytes).
+Output written on proyect.dvi (10 pages, 16720 bytes).

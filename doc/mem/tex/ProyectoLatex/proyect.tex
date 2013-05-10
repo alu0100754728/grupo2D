@@ -6,9 +6,12 @@
 
 \begin{document}
 %Portada
-  \begin{figure}[lt]
-    \includegraphics[width=0.2\textwidth]{ull.eps}
+  \begin{figure}[t]
+    \begin{center}
+        \includegraphics[width=0.2\textwidth]{ull.eps}
+        \hspace{5.5cm}
 	\includegraphics[width=0.2\textwidth]{fmatesc.eps}
+    \end{center}
   \end{figure}
   \title{Integración Del Trapecio}
   \author{Tiffany López Nicholson \\ Miriam Martín Jacinto \\ Sergio Vega García}
@@ -31,9 +34,9 @@
   
   \section{Motivaciones y objetivos}
     \subsection{Objetivo principal}
-       Implementar con Python la integración del trapecio para f(x) % MIRAR SI VAMOS A INTRODUCIR
+       Debido a que realizar la Regla del Trapecio manualmente es muy tedioso, y por ende, se pierde mucho tiempo, se ha decidido implementar un programa en python que realice la Regla del Trapecio para f(x)
     \subsection{Objetivo específico} 
-       Realizar un algoritmo capaz de resolver la integración del trapecio para $ f(x) = \frac{1}{1 + e^{x}}$, x E [1, 6]. % ALGO MÁS AQUÍ, O BORRARLO
+       El algoritmo que se desarrollará a lo largo del proyecto será capaz de resolver la integración del trapecio para $ f(x) = \frac{1}{1 + e^{x}}$, x E [1, 6]. Esto significaría una mayor rapidez para la obtención de resultados, y mayor presición.
   \pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%
@@ -137,12 +140,14 @@
     \subsection{Descripción de las computadoras utilizadas:}
 
       \begin{itemize}
-        \item S.O.: Linux - Ubuntu, Linux - Mint
+        \item S.O.: Linux - Ubuntu
         \item Procesador: Pentium(R) Dual-Core CPU  T4400  @ 2.20GHz
         \item Velocidad: 1200.000 MHz
         \item RAM: 4 GB
-        \item Versión de Python: 
+        \item Versión de Python: 2.7.3
       \end{itemize}
+
+% Ya que borraron Windows 7, no debería aparecer dos SO, dos Procesadores, dos Velocidades, etc.
 
     \subsection{Resultados obtenidos}
 
@@ -180,6 +185,31 @@
      % SACAR MÁS CONCLUSIONES
 
     \pagebreak
+
+   \section{Conclusiones}
+    COMPLETAR
+   \pagebreak
+
+   \section{Algoritmo}
+
+   Trapecio.py\\
+   
+   AUTORES:
+
+   \begin{itemize}
+     \item Tiffany López Nicholson
+     \item Miriam Martín Jacinto
+     \item Sergio Vega García
+   \end{itemize}
+
+   FECHA: \today \\
+
+   DESCRIPCIÓN:\\
+
+     Se pide introducir por teclado la cantidad mínima de particiones, la cantidad máxima y la cantidad de intervalos.\\
+
+     El primer bucle es el encargado de las particiones, y el segundo, del sumatorio presente en la fórmula. Se imprime por teclado el resultado, y continúa ejecutándose el primer while.
+   
 
 %FIN BOCETO
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
