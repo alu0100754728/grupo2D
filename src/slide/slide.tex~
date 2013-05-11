@@ -24,21 +24,17 @@
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \begin{frame}
+    %\begin{figure}[lt]
+    %  \includegraphics[width=0.2\textwidth]{ull.eps}
+    %  \includegraphics[width=0.2\textwidth]{facultad.eps}
+    %\end{figure}
     \titlepage
-
-    \begin{scriptsize}
-      \begin{center}
-	Facultad de Matemáticas \\ Universidad de La Laguna
-      \end{center}
-    \end{scriptsize}
   \end{frame}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \begin{frame}
     \frametitle{Índice.}
     \tableofcontents[pausesections]
   \end{frame}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \section{Integración.}
   \begin{frame}
@@ -51,8 +47,6 @@
 	Dada una función f(x) y un intervalo [a,b], la \textbf{integral definida} es igual al área limitada entre la gráfica de f(x), el eje de abscisas, y las rectas verticales x = a y x = b.\\
 	$\int_{a}^{b} f(x) dx$, continua en el intervalo $[a, b].$
       \end{definicion}
-
-
   \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \section{Regla del trapecio.}
@@ -60,8 +54,23 @@
     \begin{definicion}
       La \textbf{regla del trapecio} es un método de integración numérica que se basa en aproximar el valor de la integral definida de $f(x)$ por el de la función lineal que pasa a través de ésta, formándose una figura: un trapecio. Para obtener esta aproximación, debemos calcular el área de los trapecios.
     \end{definicion}
-
   \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \section{Nuestro caso.}
+  \begin{frame}
+    \begin{block}{La integral.}
+      En esta exposición se mostrará la siguiente integral utilizando la \textbf{regla del trapecio} y nuestro programa $Python$.\\
+      \begin{center}
+	$\int_{1}^{6}\frac{1}{1+e^x}dx$, en el intervalo $[1,6]$
+      \end{center}
+    \end{block}
+
+    \begin{block}{¿Qué vamos a hacer?}
+      Crearemos un algoritmo en \textbf{$Python$} para hacer varias pruebas, dependiendo de las partciones que haremos, utilizando la regla del trapecio.
+    \end{block}
+  \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
