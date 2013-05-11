@@ -13,7 +13,6 @@ m=float(raw_input('Introduce el numero maximo de particiones ')) # Idem
 intervalos=float(raw_input('Introduce el intervalo de las particiones ')) # Idem
 
 
-start=time()
 
 while n<=m:
    h=float((b-a)/n)
@@ -27,6 +26,3 @@ while n<=m:
 
    print 'Particion:', int(n), 'Resultado:', sumatorio
    n+=intervalos   
-end=time()
-   
-print (end-start)

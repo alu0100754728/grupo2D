@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.07pt}
+\beamer@endinputifotherversion {3.10pt}
 \select@language {spanish}
 \beamer@sectionintoc {1}{Integraci\IeC {\'o}n.}{4}{0}{1}
 \beamer@sectionintoc {2}{Regla del trapecio.}{5}{0}{2}
