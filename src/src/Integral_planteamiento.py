@@ -1,5 +1,7 @@
 #!/usr/bin/python
 import math
+from time import time
+
 
 a=1
 b=6
@@ -23,4 +25,4 @@ while n<=m:
    sumatorio=(h/2*(1/(1+math.e**a)+sumatorio+(1/(1+math.e**b))))  #regla del trapecio por partes
 
    print 'Particion:', int(n), 'Resultado:', sumatorio
-   n+=intervalos
+   n+=intervalos   

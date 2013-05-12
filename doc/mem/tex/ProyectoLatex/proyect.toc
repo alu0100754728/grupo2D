@@ -6,10 +6,10 @@
 \contentsline {subsection}{\numberline {2.1}Interpolaci\IeC {\'o}n polinomial.}{4}
 \contentsline {subsection}{\numberline {2.2}Integraci\IeC {\'o}n del trapecio}{4}
 \contentsline {subsection}{\numberline {2.3}Integraci\IeC {\'o}n del trapecio aplicado}{5}
-\contentsline {section}{\numberline {3}Procedimiento experimental}{6}
-\contentsline {subsection}{\numberline {3.1}Descripci\IeC {\'o}n de los experimentos}{6}
-\contentsline {subsection}{\numberline {3.2}Descripci\IeC {\'o}n de las computadoras utilizadas:}{6}
-\contentsline {subsection}{\numberline {3.3}Resultados obtenidos}{7}
-\contentsline {subsection}{\numberline {3.4}An\IeC {\'a}lisis de resultados}{7}
-\contentsline {section}{\numberline {4}Conclusiones}{8}
-\contentsline {section}{\numberline {5}Algoritmo}{9}
+\contentsline {section}{\numberline {3}Procedimiento experimental}{7}
+\contentsline {subsection}{\numberline {3.1}Descripci\IeC {\'o}n de los experimentos}{7}
+\contentsline {subsection}{\numberline {3.2}Descripci\IeC {\'o}n de las computadoras utilizadas:}{7}
+\contentsline {subsection}{\numberline {3.3}Resultados obtenidos}{8}
+\contentsline {subsection}{\numberline {3.4}An\IeC {\'a}lisis de resultados}{8}
+\contentsline {section}{\numberline {4}Conclusiones}{9}
+\contentsline {section}{\numberline {5}Algoritmo}{10}

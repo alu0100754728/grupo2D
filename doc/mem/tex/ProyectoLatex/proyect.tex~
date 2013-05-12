@@ -148,7 +148,6 @@
       \end{itemize}
 
 % Ya que borraron Windows 7, no debería aparecer dos SO, dos Procesadores, dos Velocidades, etc.
-% PD: ¿Sabeis realmente por qué se piden los detalles del pc?
 
     \subsection{Resultados obtenidos}
 
@@ -174,21 +173,31 @@
       \hline
       9 & 0.317158073083 & 90 & 0.310973305356 & 900 & 0.310800238521\\
       \hline
-      10 & 0.316070258216 & 100 & 0.310950080829 & 1000 & 0.310798769966\\ \hline
+      10 & 0.316070258216 & 100 & 0.310950080829 & 1000 & 0.310798769966\\ 
+      \hline
+      Tiempo & 0.000426054000854 & Tiempo & 0.00157999992371 & Tiempo & 0.0125889778137\\ \hline
      \end{tabular}
 
     \subsection{Análisis de resultados}
 
-     Analizando los resultados, se observa que no hay grandes cambios a partir de la octava división. Si solo se hicieran una o dos divisiones se tendría un resultado mucho mayor del real, eso es porque hay una curva pronunciada, sobre todo al principio. Se puede apreciar en la Figura ~\ref{fig:grafica}.\\
+     Analizando los resultados, se observa que no hay grandes cambios a partir de la octava división. Si solo se hicieran una o dos divisiones se tendría un resultado mucho mayor del real, eso es porque hay una curva pronunciada, sobre todo al principio. Se puede apreciar en la Figura ~\ref{fig:grafica}. Si fuera una recta no habría variación en ninguna de las particiones.\\
 
      Cuanto mayor es el número de particiones, más se reduce el resultado, por tanto la curva que existe es decreciente.\\
+
+     El número de particiones influye en el tiempo que tarda en obtenerse el resultado, incluso en un ordenador, pero es notorio cuando la cantidad de particiones es alta.\\
 
      % SACAR MÁS CONCLUSIONES
 
     \pagebreak
 
    \section{Conclusiones}
-    COMPLETAR
+    El tipo de función determina la cantidad mínima de particiones para una buena aproximación de la función.\\
+
+    El método del trapecio es muy útil cuando la integral es muy difícil, pero tiene el problema de lo largo que es el método. Sin embargo, mediante un programa en python es todo mucho más sencillo.\\
+
+    Es mejor utilizar un programa sobre todo para realizar comparaciones entre varias particiones, ya que tendrías los resultados casi al instante.\\
+
+    Por otro lado, si la ecuación se puede integrar relativamente fácil, no sería necesario estar realizando la regla del trapecio, sino es mejor usar directamente las igualdades notables.\\
    \pagebreak
 
    \section{Algoritmo}
@@ -209,7 +218,7 @@
 
      Se pide introducir por teclado la cantidad mínima de particiones, la cantidad máxima y la cantidad de intervalos.\\
 
-     El primer bucle es el encargado de las particiones, y el segundo, del sumatorio presente en la fórmula. Se imprime por teclado el resultado, y continúa ejecutándose el primer while.
+     El primer bucle es el encargado de las particiones, y el segundo, del sumatorio presente en la fórmula. Se imprime por teclado el resultado, y continúa ejecutándose el primer while.\\
    
 
 %FIN BOCETO
