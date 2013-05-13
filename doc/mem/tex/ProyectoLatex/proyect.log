@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.3.13)  13 MAY 2013 14:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.3.13)  13 MAY 2013 16:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -342,33 +342,32 @@ LaTeX Info: Redefining \% on input line 1.
 [2] [3]
 File: areadeltrapecio.eps Graphic file (type eps)
  <areadeltrapecio.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
 File: img2.eps Graphic file (type eps)
 <img2.eps>
 File: img3.eps Graphic file (type eps)
- <img3.eps> [4]
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
+ <img3.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
 
 File: img4.eps Graphic file (type eps)
 <img4.eps> [5] [6]
-Overfull \hbox (2.44504pt too wide) in paragraph at lines 109--110
-[]\OT1/cmr/m/n/10 Para poder re-alizar la in-te-graci^^Son del trapecio primero
- nece-sitabamos analizar
+Underfull \hbox (badness 10000) in paragraph at lines 123--124
+
  []
 
 
@@ -376,12 +375,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--128
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 207--208
 
  []
@@ -391,67 +390,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-
- []
-
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 218--219
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 220--221
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 243--244
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 245--246
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--248
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
 
  []
 
-[10] (./proyect.aux
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+[10] [11] (./proyect.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
  1497 strings out of 495060
  17442 string characters out of 3182053
- 73563 words of memory out of 3000000
+ 74563 words of memory out of 3000000
  4678 multiletter control sequences out of 15000+200000
  13702 words of font info for 53 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 25i,8n,27p,437b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,8n,27p,438b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on proyect.dvi (10 pages, 19364 bytes).
+Output written on proyect.dvi (11 pages, 20356 bytes).

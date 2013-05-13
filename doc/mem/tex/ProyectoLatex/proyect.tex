@@ -20,7 +20,7 @@
 
   \begin{abstract}
     \begin{center}
-       A continuación se presentará como se ha implementado con python un algoritmo capaz de resolver la integral definida $\int_{1}^{6} \frac{1}{1+e^x}$
+       A continuación se presentará como se ha implementado con $Python$ un algoritmo capaz de resolver la integral definida $\int_{1}^{6} \frac{1}{1+e^x}$
     \end{center}
   \end{abstract}
   \pagebreak
@@ -34,15 +34,15 @@
   
   \section{Motivaciones y objetivos}
     \subsection{Objetivo principal}
-       Debido a que realizar la Regla del Trapecio manualmente es muy tedioso, y por ende, se pierde mucho tiempo, se ha decidido implementar un programa en python que realice la Regla del Trapecio para f(x)
+       Debido a que realizar la Regla del Trapecio manualmente es muy tedioso y se pierde mucho tiempo, se ha decidido implementar un programa en $Python$ que realice la Regla del Trapecio para $f(x)$.
     \subsection{Objetivo específico} 
-       El algoritmo que se desarrollará a lo largo del proyecto será capaz de resolver la integración del trapecio para $ f(x) = \frac{1}{1 + e^{x}}$, x E [1, 6]. Esto significaría una mayor rapidez para la obtención de resultados, y mayor presición.
+       El algoritmo que se desarrollará a lo largo del proyecto será capaz de resolver la integración del trapecio para $ f(x) = \frac{1}{1 + e^{x}}$, x E [1, 6]. Esto significaría una mayor rapidez para la obtención de resultados al igual que una mayor presición.
   \pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%
 
   \section{Fundamentos teóricos}
-    La regla del trapecio es un método de integración numérica que se basa en aproximar el valor de la integral definida de $f(x)$ por el de la función lineal que pasa a través de ésta, formándose una figura: un trapecio. Para obtener esta aproximación, debemos calcular el área de los trapecios.
+    La regla del trapecio es un método de integración numérica que se basa en aproximar el valor de la integral definida de $f(x)$ por el de la función lineal que pasa a través de esta, formándose una figura: un trapecio. Para obtener esta aproximación, debemos calcular el área de los trapecios.
     
     \begin{figure}[h]
       \begin{center}
@@ -53,22 +53,23 @@
 
       Para justificar este método, deberemos ''aproximar'' de una buena manera nuestra función $f(x)$. Esto lo haremos gracias a la \textit{interpolación polinomial}.
 
-    \subsection{Interpolación polinomial.}
-      La interpolación polinomial nos dice que para hacer una ''buena aproximación''de $f(x)$, que querremos integrar, por otra función $g(x)$, en los puntos $x_{i}$ (con $i = 1, 2, 3, ..., n$); o lo que es lo mismo, $\int_{x_{1}}^{x_{n}}f(x)dx \approx \int_{x_{1}}^{x_{n}}g(x)dx$, $\forall x_{i}, con i = 1, 2, 3, ..., n$. Estas dos funciones deben ser continuas en el intervalo $[x_{1}, x_{n}]$.\\
+    \subsection{Interpolación polinomial}
+      La interpolación polinomial nos dice que para hacer una ''buena aproximación'' de $f(x)$, que querremos integrar, por otra función $g(x)$, en los puntos $x_{i}$ (con $i = 1, 2, 3, ..., n$); o lo que es lo mismo, $\int_{x_{1}}^{x_{n}}f(x)dx \approx \int_{x_{1}}^{x_{n}}g(x)dx$, $\forall x_{i}, con i = 1, 2, 3, ..., n$. Estas dos funciones deben ser continuas en el intervalo $[x_{1}, x_{n}]$.\\
       Pero el problema que se presenta es como buscar estas funciones. Hay varios teoremas que nos ayudan a resolverlo, como el \textit{teorema aproximación de Weierstrass}\footnote{http://es.wikipedia.org/wiki/Teorema\_de\_aproximación\_de\_Weierstrass} o el \textit{polinomio de interpolación de Lagrange}\footnote{http://es.wikipedia.org/wiki/Interpolación\_polinómica\_de\_Lagrange}.
       
     \subsection{Integración del trapecio}
 
       Para la utilización del método del trapecio partimos de una función, la cual dividiremos en n trozos iguales. Cuanto mayor sea el número de particiones, mayor precisión tendrá el método.\\
-
-  	\begin{center}
+	\\
+	
+	\begin{figure}
+  	  \begin{center}
          \includegraphics[width=0.48\textwidth]{img2.eps}
-	 \includegraphics[width=0.48\textwidth]{img3.eps}
-        \end{center}
+	     \includegraphics[width=0.48\textwidth]{img3.eps}
+      \end{center}
+	\end{figure}
 
-
-      Se puede apreciar que el área tomada por exceso, es decir, la que supera a la función, o la tomada por defecto, la cual no llega a la función, se reduce según aumenta el número de particiones. \\
-      \\
+      Se puede apreciar que el área tomada por exceso (área azul), es decir, la que supera a la función, se reduce según aumenta el número de particiones.\\
 
       La función general es: 
         
@@ -83,7 +84,6 @@
       La expresión anterior también se puede escribir como:
 
       \begin{center}
-
         $\int_{a}^{b}f(x)dx \approx \frac{b-a}{n}(\frac{f(a)+f(b)}{2}+\sum\limits_{k=1}^{n-1}f(a+k\frac{b-a}{n}))$
       \end{center}
 
@@ -103,26 +103,24 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%BOCETOOOOOOOOOOOO
-
    \section{Procedimiento experimental}
-   Para poder realizar la integración del trapecio primero necesitabamos analizar los datos iniciales.
+   Para poder realizar la integración del trapecio primero se necesita analizar los datos iniciales.
    \begin{itemize}
     \item La función $f(x)=\frac{1}{1+e^x}$ estaba definida en el intervalo [1,6].
-    \item La función definida en [1,6] existe en $\mathbb{R}$, numeros reales, por tanto se puede integrar.
+    \item La función definida en [1,6] existe en $\mathbb{R}$, números reales, por tanto se puede integrar.
     \item En la fórmula de la integración del trapecio intervienen bastantes variables.
    \end{itemize}
-   Con estos datos a priori se pueden sacar dos conclusiones.
+   Con estos datos a priori se pueden sacar dos conclusiones:
      \begin{enumerate}
-       \item Realizar la integración por la regla del trapecio manualmente es muy tedioso.
-       \item Se necesita implementar un programa en python para agilizar la tarea.
+       \item Realizar la integración por la regla del trapecio manualmente es muy laborioso.
+       \item Se necesita implementar un programa en $Python$ para agilizar la tarea.
      \end{enumerate}
 
-   Se ha creado en python un programa que permita elegir el número de particiones y así comparar resultados. La utilidad principal sería comprobar que cuantas más particiones se realicen, más precisa es la integración.
+   Se ha creado en $Python$ un programa que permita elegir el número de particiones y para así poder comparar resultados. La función principal es comprobar que cuantas más particiones se realicen, más precisa es la integración.
     
     \subsection{Descripción de los experimentos}
 
-   Se ha implementado un programa en python capaz de realizar la regla del trapecio, y que podamos elegir particiones mínimas y máximas. Al ejecutarlo e introducir los datos nos va mostrando los resultados de cada partición.\\
+   Se ha implementado un programa en $Python$ capaz de realizar la regla del trapecio, en el cual se puede elegir las particiones mínimas y máximas. Al ejecutarlo e introducir los datos se nos muestra los resultados de cada partición.\\
 
    Se han comprobado algunas particiones manualmente para comprobar que realmente el programa está funcionando correctamente.\\
 
@@ -134,14 +132,14 @@
      \item De 100 a 1000 particiones, con intervalo de 100 unidades.
    \end{enumerate}
 
-    \subsection{Descripción de las computadoras utilizadas:}
+    \subsection{Descripción de las computadoras utilizadas}
 
       \begin{itemize}
-        \item S.O.: Linux - Ubuntu
-        \item Procesador: Pentium(R) Dual-Core CPU  T4400  @ 2.20GHz
-        \item Velocidad: 1200.000 MHz
+        \item S.O.: Linux - Ubuntu.
+        \item Procesador: Pentium(R) Dual-Core CPU  T4400  @ 2.20GHz.
+        \item Velocidad: 1200.000 MHz.
         \item RAM: 4 GB
-        \item Versión de Python: 2.7.3
+        \item Versión de $Python$: 2.7.3
       \end{itemize}
 
     \subsection{Resultados obtenidos}
@@ -204,24 +202,25 @@
     \end{center}
     \subsection{Análisis de resultados}
 
-     Analizando los resultados, se observa que no hay grandes cambios a partir de la octava división. Si solo se hicieran una o dos divisiones se tendría un resultado mucho mayor del real, eso es porque hay una curva pronunciada, sobre todo al principio. Se puede apreciar en la Figura ~\ref{fig:grafica}. Si fuera una recta no habría variación en ninguna de las particiones.\\
+     Analizando los resultados, se observa que no hay grandes cambios a partir de la octava división. Si solo se hicieran una o dos divisiones se tendría un resultado mucho mayor que el real, eso es porque hay una curva convexa pronunciada, sobre todo al principio. Esto se puede apreciar en la Figura ~\ref{fig:grafica}. Si fuera una recta no habría variación en ninguna de las particiones.\\
 
-     Cuanto mayor es el número de particiones, más se reduce el resultado, por tanto la curva que existe es decreciente.\\
+     Cuanto mayor es el número de particiones, más se reduce el error, por tanto, la curva que existe es decreciente.\\
 
-     El número de particiones influye en el tiempo que tarda en obtenerse el resultado, incluso en un ordenador, pero es notorio cuando la cantidad de particiones es alta.\\
+     El número de particiones influye en el tiempo que tarda en obtenerse el resultado, incluso en una computadora. Se puede observar como se eleva considerablemente cuanto mayor es el número de particiones.\\
 
      % SACAR MÁS CONCLUSIONES
 
     \pagebreak
 
    \section{Conclusiones}
-    El tipo de función determina la cantidad mínima de particiones para una buena aproximación de la función.\\
+	
+	Después de pruebas y pruebas, se ha llegado a la conclusión de que el tipo de función determina la cantidad mínima de particiones que se deben hacer para conseguir una buena aproximación de la función.\\
 
-    El método del trapecio es muy útil cuando la integral es muy difícil, pero tiene el problema de lo largo que es el método. Sin embargo, mediante un programa en python es todo mucho más sencillo.\\
+    El método del trapecio es muy útil cuando la integral es muy difícil, aunque su principal problema es el largo tiempo que toma para hacerlo. Sin embargo, mediante un programa en $Python$ es todo mucho más sencillo.\\
 
-    Es mejor utilizar un programa sobre todo para realizar comparaciones entre varias particiones, ya que tendrías los resultados casi al instante.\\
+    Al utilizar un programa informático, el tiempo se reduce muchísimo, además, te permite realizar comparaciones entre varias particiones, ya que tendrías los resultados casi al instante.\\
 
-    Por otro lado, si la ecuación se puede integrar relativamente fácil, no sería necesario estar realizando la regla del trapecio, sino es mejor usar directamente las igualdades notables.\\
+    Por otro lado, si la ecuación se puede integrar relativamente fácil sería mejor usar la tabla de las integrales inmediatas en vez de este método.\\
 
    % MÁS CONCLUSIONES
    \pagebreak
@@ -243,10 +242,20 @@
    DESCRIPCIÓN:\\
 
      Se pide introducir por teclado la cantidad mínima de particiones, la cantidad máxima y la cantidad de intervalos.\\
+	
+	Se asigna a una variable el tiempo actual.\\
 
-     El primer bucle es el encargado de las particiones, y el segundo, del sumatorio presente en la fórmula. Se imprime por teclado el resultado, y continúa ejecutándose el primer while.\\
+	Nos encontramos con dos bucles while anidados. En el primero, se asigna el valor de las particiones actuales; y en el segundo, se encuentra el sumatorio de la fórmula de la regla del trapecio.\\
+
+     Cada vez que se finaliza el primer bucle se imprime por pantalla el número de particiones y el valor de la integral.\\
+
+	Una vez ejecutado prácticamente todo el programa, se asigna otra variable para el tiempo final y se imprime la diferencia de tiempos, es decir, el tiempo que tarda en realizarse todas las particiones.\\
+
+  \pagebreak
+
+	%BIBLIOGRAFÍA%%%%%%%%%%%%%%%%%%%
+
+	\section{Bibliografía}
    
-
-%FIN BOCETO
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}
