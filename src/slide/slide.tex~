@@ -24,10 +24,11 @@
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \begin{frame}
-    %\begin{figure}[lt]
-    %  \includegraphics[width=0.2\textwidth]{ull.eps}
-    %  \includegraphics[width=0.2\textwidth]{facultad.eps}
-    %\end{figure}
+    \begin{figure}[lt]
+      \includegraphics[width=0.2\textwidth]{ull.eps}
+      \hspace{5.5cm}
+      \includegraphics[width=0.2\textwidth]{fmatesc.eps}
+    \end{figure}
     \titlepage
   \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -66,19 +67,19 @@
     \end{block}
 
     \begin{block}{¿Qué vamos a hacer?}
-      Crearemos un algoritmo en \textbf{$Python$} para hacer varias pruebas, dependiendo de las partciones que haremos, utilizando la regla del trapecio.
+      Crearemos un algoritmo en \textbf{$Python$} para hacer varias pruebas utilizando la regla del trapecio, obteniendo distintos resultados dependiendo de las partciones que haremos.
     \end{block}
   \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %\section{Bibliografía.}
-  %\begin{thebibliography}{00}
-    %\bibitem{}
+  \section{Bibliografía.}
+  \begin{thebibliography}{00}
+    \bibitem{}
     
-  %\end{thebibliography}
+  \end{thebibliography}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

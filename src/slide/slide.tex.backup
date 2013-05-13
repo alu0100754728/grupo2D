@@ -24,10 +24,11 @@
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \begin{frame}
-    %\begin{figure}[lt]
-    %  \includegraphics[width=0.2\textwidth]{ull.eps}
-    %  \includegraphics[width=0.2\textwidth]{facultad.eps}
-    %\end{figure}
+    \begin{figure}[lt]
+      \includegraphics[width=0.2\textwidth]{ull.eps}
+      \hspace{5.5cm}
+      \includegraphics[width=0.2\textwidth]{fmatesc.eps}
+    \end{figure}
     \titlepage
   \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -59,22 +60,26 @@
   \section{Nuestro caso.}
   \begin{frame}
     \begin{block}{La integral.}
-      En esta exposición se mostrará la siguiente integral utilizando la \textbf{regla del trapecio}.\\
+      En esta exposición se mostrará la siguiente integral utilizando la \textbf{regla del trapecio} y nuestro programa $Python$.\\
       \begin{center}
-	$\int_{1}^{6}\frac{1}{1+e^x}dx, en el intervalo [1,6]$
+	$\int_{1}^{6}\frac{1}{1+e^x}dx$, en el intervalo $[1,6]$
       \end{center}
+    \end{block}
+
+    \begin{block}{¿Qué vamos a hacer?}
+      Crearemos un algoritmo en \textbf{$Python$} para hacer varias pruebas utilizando la regla del trapecio, obteniendo distintos resultados dependiendo de las partciones que haremos.
     \end{block}
   \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  %\section{Bibliografía.}
-  %\begin{thebibliography}{00}
-    %\bibitem{}
+  \section{Bibliografía.}
+  \begin{thebibliography}{00}
+    \bibitem{}
     
-  %\end{thebibliography}
+  \end{thebibliography}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
