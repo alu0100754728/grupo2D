@@ -10,7 +10,7 @@
     \begin{center}
         \includegraphics[width=0.2\textwidth]{ull.eps}
         \hspace{5.5cm}
-	\includegraphics[width=0.2\textwidth]{fmatesc.eps}
+		\includegraphics[width=0.2\textwidth]{fmatesc.eps}
     \end{center}
   \end{figure}
   \title{Integración Del Trapecio}
@@ -55,10 +55,7 @@
 
     \subsection{Interpolación polinomial.}
       La interpolación polinomial nos dice que para hacer una ''buena aproximación''de $f(x)$, que querremos integrar, por otra función $g(x)$, en los puntos $x_{i}$ (con $i = 1, 2, 3, ..., n$); o lo que es lo mismo, $\int_{x_{1}}^{x_{n}}f(x)dx \approx \int_{x_{1}}^{x_{n}}g(x)dx$, $\forall x_{i}, con i = 1, 2, 3, ..., n$. Estas dos funciones deben ser continuas en el intervalo $[x_{1}, x_{n}]$.\\
-%%NO HACE FALTA PONER CORCHETES PARA ELEVADOS O ÍNDICES SI SOLO ES UN DATO
-%%PUEDES AHORRAR TIEMPO SI LOS EVITAS.
-%%Pero en mi portatil si no pongo corchetes no se compila bien.
-      Pero el problema que se presenta es como buscar estas funciones. Hay varios teoremas que nos ayudan a resolverlo, como el \textit{teorema aproximación de Weierstrass} o el \textit{polinomio de interpolación de Lagrange}.
+      Pero el problema que se presenta es como buscar estas funciones. Hay varios teoremas que nos ayudan a resolverlo, como el \textit{teorema aproximación de Weierstrass}\footnote{http://es.wikipedia.org/wiki/Teorema\_de\_aproximación\_de\_Weierstrass} o el \textit{polinomio de interpolación de Lagrange}\footnote{http://es.wikipedia.org/wiki/Interpolación\_polinómica\_de\_Lagrange}.
       
     \subsection{Integración del trapecio}
 
@@ -149,33 +146,62 @@
 
     \subsection{Resultados obtenidos}
 
-     \begin{tabular}{|c|c|c|c|c|c|}
+     \begin{tabular}{|c|c|c|c|}
       \hline
-      Partición & Resultado & Partición & Resultado & Partición & Resultado\\
+      Partición & Resultado & Partición & Resultado\\
       \hline
-      1 & 0.6908982271 & 10 & 0.316070258216 & 100 & 0.310950080829\\ 
+      1 & 0.6908982271 & 10 & 0.316070258216\\
       \hline
-      2 & 0.418729690428 & 20 & 0.312415536652 & 200 & 0.310857929721\\ 
+      2 & 0.418729690428 & 20 & 0.312415536652\\ 
       \hline
-      3 & 0.360170903466 & 30 & 0.311647557367 & 300 & 0.310831706878\\
+      3 & 0.360170903466 & 30 & 0.311647557367\\
       \hline
-      4 & 0.339273533105 & 40 & 0.311347886591 & 400 & 0.310819438106\\
+      4 & 0.339273533105 & 40 & 0.311347886591\\
       \hline
-      5 & 0.329487501506 & 50 & 0.311195057792 & 500 & 0.310812346491\\
+      5 & 0.329487501506 & 50 & 0.311195057792\\
       \hline
-      6 & 0.324106360674 & 60 & 0.311104409514 & 600 & 0.310812346491\\
+      6 & 0.324106360674 & 60 & 0.311104409514\\
       \hline
-      7 & 0.320820024708 & 70 & 0.311045164508 & 700 & 0.310804489423\\
+      7 & 0.320820024708 & 70 & 0.311045164508\\
       \hline
-      8 & 0.31865911442 & 80 & 0.311003740508 & 800 & 0.310802088259\\
+      8 & 0.31865911442 & 80 & 0.311003740508\\
       \hline
-      9 & 0.317158073083 & 90 & 0.310973305356 & 900 & 0.310800238521\\
+      9 & 0.317158073083 & 90 & 0.310973305356\\
       \hline
-      10 & 0.316070258216 & 100 & 0.310950080829 & 1000 & 0.310798769966\\ 
+      10 & 0.316070258216 & 100 & 0.310950080829\\
       \hline
-      Tiempo & 0.000426054000854 & Tiempo & 0.00157999992371 & Tiempo & 0.0125889778137\\ \hline
+      Tiempo & 0.000426054000854 & Tiempo & 0.00157999992371\\ \hline
      \end{tabular}
 
+     \vspace{0.4cm}
+    \begin{center}
+     \begin{tabular}{|c|c|}
+      \hline
+      Partición & Resultado\\
+      \hline
+      100 & 0.310950080829\\ 
+      \hline
+      200 & 0.310857929721\\ 
+      \hline
+      300 & 0.310831706878\\ 
+      \hline
+      400 & 0.310819438106\\
+      \hline
+      500 & 0.310812346491\\
+      \hline
+      600 & 0.310812346491\\
+      \hline
+      700 & 0.310804489423\\ 
+      \hline
+      800 & 0.310802088259\\
+      \hline
+      900 & 0.310800238521\\
+	  \hline
+      1000 & 0.310798769966\\ 
+      \hline
+      Tiempo & 0.0125889778137\\ \hline
+     \end{tabular} 
+    \end{center}
     \subsection{Análisis de resultados}
 
      Analizando los resultados, se observa que no hay grandes cambios a partir de la octava división. Si solo se hicieran una o dos divisiones se tendría un resultado mucho mayor del real, eso es porque hay una curva pronunciada, sobre todo al principio. Se puede apreciar en la Figura ~\ref{fig:grafica}. Si fuera una recta no habría variación en ninguna de las particiones.\\
@@ -200,9 +226,9 @@
    % MÁS CONCLUSIONES
    \pagebreak
 
-   \section{Algoritmo}
-
-   Trapecio.py\\
+   \section{Apéndice}
+    \subsection{Algoritmo}
+   NOMBRE: Trapecio.py\\
    
    AUTORES:
 
