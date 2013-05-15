@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.3.13)  13 MAY 2013 16:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.3.13)  15 MAY 2013 22:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -450,7 +450,46 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
-[10] [11] (./proyect.aux
+[10]
+
+LaTeX Warning: Empty `thebibliography' environment on input line 268.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--268
+[]\OT1/cmr/m/n/10 @16/04/2013:http://es.wikipedia.org/wiki/Regla[]del[]trapecio
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--268
+\OT1/cmr/m/n/10 @21/04/2013:http://math2.org/math/integrals/es-tableof.htm
+ []
+
+
+Overfull \hbox (7.02863pt too wide) in paragraph at lines 260--268
+\OT1/cmr/m/n/10 @05/05/2013:http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.htm
+l
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--268
+\OT1/cmr/m/n/10 @05/05/2013:http://es.wikipedia.org/wiki/Interpolaci^^Son[]poli
+n^^Somi-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--268
+\OT1/cmr/m/n/10 @05/05/2013:http://es.wikipedia.org/wiki/Teorema[]de[]aproximac
+i^^Son[]de[]
+ []
+
+
+Overfull \hbox (67.33426pt too wide) in paragraph at lines 260--268
+\OT1/cmr/m/n/10 Weier-strass @13/05/2013:http://portales.puj.edu.co/objetosdeap
+rendizaje/Online/OA10/
+ []
+
+[11] (./proyect.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
@@ -463,4 +502,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  25i,8n,27p,438b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on proyect.dvi (11 pages, 20356 bytes).
+Output written on proyect.dvi (11 pages, 21116 bytes).
