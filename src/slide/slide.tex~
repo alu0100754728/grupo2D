@@ -1,3 +1,7 @@
+%Para compilar:
+%dvips slide.dvi
+%ps2pdf slide.ps
+
 \documentclass{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
@@ -24,7 +28,9 @@
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \begin{frame}
-    %\includegraphics[width=0.2\textwidth]{ull.eps}   PREGUNTAR A COROMOTO.
+    \includegraphics[width=0.15\textwidth]{ull.eps}
+    \hspace{6.5cm}
+    \includegraphics[width=0.15\textwidth]{fmatesc.eps}
     \titlepage
   \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -78,9 +84,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \begin{frame}
     \begin{block}{ }
-      Se creará un programa en $Python$ capaz de implementar el teorema, eligiendo el número de particiones que el usuario introduce.\\
-      Aun así, más tarde se querrá hacer más comparaciones; por tanto, se añade al programa la opción de elegir un intervalo de particiones.\\
-      Además, se quiere comprobar el tiempo que tarda en implementar el algoritmo en una computodura.
+      \begin{itemize}
+	\item Se creará un programa en $Python$ capaz de implementar el teorema, eligiendo el número de particiones que el usuario introduce.
+	\pause
+	\item Aun así, más tarde se querrá hacer más comparaciones; por tanto, se añade al programa la opción de elegir un intervalo de particiones.
+	\pause
+	\item Además, se quiere comprobar el tiempo que tarda en implementar el algoritmo en una computadora.
+      \end{itemize}
     \end{block}
   \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
