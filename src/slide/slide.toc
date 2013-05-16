@@ -4,5 +4,5 @@
 \beamer@sectionintoc {2}{Regla del trapecio.}{9}{0}{2}
 \beamer@sectionintoc {3}{Nuestro caso.}{10}{0}{3}
 \beamer@sectionintoc {4}{Algoritmo.}{11}{0}{4}
-\beamer@sectionintoc {5}{Conclusiones.}{15}{0}{5}
-\beamer@sectionintoc {6}{Bibliograf\IeC {\'\i }a.}{16}{0}{6}
+\beamer@sectionintoc {5}{Conclusiones.}{16}{0}{5}
+\beamer@sectionintoc {6}{Bibliograf\IeC {\'\i }a.}{19}{0}{6}

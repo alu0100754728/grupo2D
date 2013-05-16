@@ -29,7 +29,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \begin{frame}
     \includegraphics[width=0.15\textwidth]{ull.eps}
-    \hspace{6.5cm}
+    \hspace{7cm}
     \includegraphics[width=0.15\textwidth]{fmatesc.eps}
     \titlepage
   \end{frame}
@@ -54,6 +54,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \section{Regla del trapecio.}
   \begin{frame}
+    \frametitle{Regla del trapecio.}
     \begin{definicion}
       La \textbf{regla del trapecio} es un método de integración numérica que se basa en aproximar el valor de la integral definida de $f(x)$ por el de la función lineal que pasa a través de ésta, formándose una figura: un trapecio. Para obtener esta aproximación, debemos calcular el área de los trapecios.
     \end{definicion}
@@ -75,10 +76,13 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \section{Algoritmo.}
   \begin{frame}
+    \frametitle{Algoritmo.}
     \begin{block}{Comienzo.}
       Para empezar, se tendrá que observar que hace la función $f(x)=\frac{1}{1+e^{x}}$ en el intervalo $[1, 6]$.
       Ahora, se deberá estudiar la función utilizando la \textbf{regla del trapecio}.
-      %TERMINAR
+      \begin{center}
+	\includegraphics[width=0.5\textwidth]{img4.eps}
+      \end{center}
     \end{block}
   \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -94,15 +98,39 @@
     \end{block}
   \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  \begin{frame}
+    \begin{center}
+      \includegraphics[width=0.5\textwidth]{img1.eps}
+    \end{center}
+  \end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \section{Conclusiones.}
   \begin{frame}
-    
+    \frametitle{Conclusiones.}
+    \begin{enumerate}
+      \item 
+      La función determina la cantidad mínima de particiones para una buena aproximación de la función. \pause
+      \item
+      Muy útil para funciones complicadas, sobre todo si utilizamos un programa informático como $Python$. \pause
+      \item
+      Para funciones más sencillas, será mejor utilizar la tabla de \textit{integrales inmediatas} para hallar la solución.
+    \end{enumerate}
   \end{frame}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   \section{Bibliografía.}
   \begin{thebibliography}{00}
+    \bibitem{trap}
+      Regla del trapecio. $http://es.wikipedia.org/wiki/Regla\_del\_trapecio$
+    \bibitem{int}
+      Integración:\\ \emph{http://math2.org/math/integrals/es-tableof.htm}
     \bibitem{}
-    
+      Símbolos en \LaTeX:\\ \emph{http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html}
+    \bibitem{Lag}
+      Interpolación polinómica de Lagrange:\\ \emph{http://es.wikipedia.org/wiki/Interpolacion\_polinomica\_de\_Lagrange}
+    \bibitem{Wei}
+      Teorema de aproximación de Weierstrass:\\ \emph{http://es.wikipedia.org/wiki/Teorema\_de\_aproximacion\_de\_Weierstrass}
+    \bibitem{num}
+      Integración numérica:\\ \emph{http://portales.puj.edu.co/objetosdeaprendizaje/Online/OA10/capitulo4/capitulo4\_2.htm}
   \end{thebibliography}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

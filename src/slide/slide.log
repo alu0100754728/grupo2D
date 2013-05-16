@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.3.1)  15 MAY 2013 11:00
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2013.3.1)  16 MAY 2013 10:33
 entering extended mode
  %&-line parsing enabled.
 **slide.tex
@@ -1072,30 +1072,67 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 ] [10
 
-] [11
+]
+File: img4.eps Graphic file (type eps)
+ <img4.eps>
+[11
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 95.
-
-(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
+ (/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 95.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 99.
  [12
 
 ] [13
 
 ] [14
 
-] [15
+]
+File: img1.eps Graphic file (type eps)
+
+<img1.eps> [15
+
+] [16
+
+] [17
+
+] [18
 
 ]
+File: beamericonarticle.eps Graphic file (type eps)
+ <beamericonarticle.eps>
+File: beamericonarticle.eps Graphic file (type eps)
+ <beamericonarticle.eps>
 File: beamericonarticle.eps Graphic file (type eps)
 
 <beamericonarticle.eps>
 File: beamericonarticle.eps Graphic file (type eps)
- <beamericonarticle.eps> [16
+ <beamericonarticle.eps>
+File: beamericonarticle.eps Graphic file (type eps)
+ <beamericonarticle.eps>
+Overfull \hbox (18.84035pt too wide) in paragraph at lines 129--130
+[]\OT1/cmss/m/it/10.95 http://es.wikipedia.org/wiki/Interpolacion[]polinomica[]
+de[]Lagrange  
+ []
+
+File: beamericonarticle.eps Graphic file (type eps)
+<beamericonarticle.eps>
+Overfull \hbox (33.7931pt too wide) in paragraph at lines 131--132
+[]\OT1/cmss/m/it/10.95 http://es.wikipedia.org/wiki/Teorema[]de[]aproximacion[]
+de[]Weierstrass  
+ []
+
+File: beamericonarticle.eps Graphic file (type eps)
+<beamericonarticle.eps>
+Overfull \hbox (121.87079pt too wide) in paragraph at lines 133--134
+[]\OT1/cmss/m/it/10.95 http://portales.puj.edu.co/objetosdeaprendizaje/Online/O
+A10/capitulo4/capitulo4[]2.htm  
+ []
+
+[19
 
 ]
 \tf@nav=\write5
@@ -1117,12 +1154,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 13150 strings out of 495062
- 230494 string characters out of 1182645
+ 13182 strings out of 495062
+ 231102 string characters out of 1182645
  326307 words of memory out of 3000000
- 15945 multiletter control sequences out of 15000+50000
+ 15975 multiletter control sequences out of 15000+50000
  11886 words of font info for 43 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  45i,17n,53p,362b,633s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on slide.dvi (16 pages, 216156 bytes).
+Output written on slide.dvi (19 pages, 255904 bytes).
