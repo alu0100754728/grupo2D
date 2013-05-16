@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.3.13)  13 MAY 2013 16:32
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=latex 2013.3.13)  16 MAY 2013 10:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -450,17 +450,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 252--253
 
  []
 
-[10] [11] (./proyect.aux
+[10]
+Overfull \hbox (30.52556pt too wide) in paragraph at lines 265--266
+[]\OT1/cmr/m/n/10 S^^S^^Pmbo-los de L[]T[]X: http://web.ift.uib.no/Teori/KURS/W
+RK/TeX/symALL.html 
+ []
+
+
+Overfull \hbox (24.18419pt too wide) in paragraph at lines 267--268
+[]\OT1/cmr/m/n/10 Interpolaci^^Son de La-grange: http://es.wikipedia.org/wiki/I
+nterpolaci^^Son[]polin^^Somi-
+ []
+
+
+Overfull \hbox (37.01186pt too wide) in paragraph at lines 269--271
+[]\OT1/cmr/m/n/10 Teorema de Weirstrass: http://es.wikipedia.org/wiki/Teorema[]
+de[]aproximaci^^Son[]de[]
+ []
+
+[11] (./proyect.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 ) ) 
 Here is how much of TeX's memory you used:
- 1497 strings out of 495060
- 17442 string characters out of 3182053
+ 1503 strings out of 495060
+ 17471 string characters out of 3182053
  74563 words of memory out of 3000000
- 4678 multiletter control sequences out of 15000+200000
+ 4684 multiletter control sequences out of 15000+200000
  13702 words of font info for 53 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  25i,8n,27p,438b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on proyect.dvi (11 pages, 20356 bytes).
+Output written on proyect.dvi (11 pages, 21336 bytes).
